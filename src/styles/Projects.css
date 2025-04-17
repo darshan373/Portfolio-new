@@ -1,0 +1,109 @@
+.Project_header{
+    font-size: 36px;
+}
+.projects{
+    margin-top: 50px;
+    
+}
+
+  
+  .offset-card {
+    background: linear-gradient(
+        to right in oklab,
+        #d9d9d91f 0%,
+        #7373731f 100%
+      );
+    border-radius: 20px;
+  }
+ 
+  
+  
+  .offset-card img {
+    border-radius: 15px;
+    width: 45%;
+    object-fit: cover;
+  }
+  
+  .tag {
+    background-color: #1d4ed8 !important;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 5px 5px 0 0;
+    color: white;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .tag:hover {
+    background-color: #2563eb;
+  }
+  
+  .div_p_card{
+    background-color: transparent;
+  }
+  .div_p_card p,.div_p_card span,.div_p_card h2,.div_p_card div{
+    background-color: transparent;
+  }
+
+  .experience-card {
+    background-color: rgba(21, 57, 84, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .experience-card h4,.experience-card h6,.experience-card p{
+    background-color: transparent;
+  }  
+  .experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  h2 {
+    border-bottom: 2px solid #1d4ed8;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  .text-muted{
+    color: white;
+  }
+  .comp_img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+  .exp_img{
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .skills-list .badge {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    background-color: rgba(29, 78, 216, 0.8);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .skills-list .badge:hover {
+    background-color: rgba(37, 99, 235, 1);
+    transform: scale(1.05);
+  }
+  @media (max-width:"576px"){
+  
+  }
+  @media screen and (max-width: 480px) {
+    .p-card-main{
+      flex-direction: column;
+    }
+    .p-card-img{
+      width: 300px !important;
+      height: 150px !important;
+    }
+    }

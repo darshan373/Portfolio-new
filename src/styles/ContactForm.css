@@ -1,0 +1,47 @@
+.service-form {
+    background-color: rgba(21, 57, 84, 0.7);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+  }
+  .service-form div,.service-form input,.service-form label{
+    background-color: transparent;
+  }
+  
+  .service-form .form-label {
+    color: #cbd5e1;
+  }
+  
+  .service-form .form-control,
+  .service-form .form-select {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+  }
+  
+  .service-form .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .service-form .btn-primary {
+    background-color: rgba(29, 78, 216, 0.9);
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .service-form .btn-primary:hover {
+    background-color: rgba(37, 99, 235, 1);
+    transform: translateY(-2px);
+  }
+  
+  /* Media Queries for ultra-small screens */
+  @media (max-width: 576px) {
+    .service-form {
+      padding: 20px;
+    }
+  
+    .service-form .btn-primary {
+      width: 100%;
+    }
+  }
