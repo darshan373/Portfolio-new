@@ -28,10 +28,17 @@ const Header = () => {
       </div>
 
       <div className="icons col-4">
-        <FaLinkedin href="https://www.linkedin.com/in/darshan373/"/>
-        <FaGithub href="https://github.com/darshan373/"/>
-        <FaInstagramSquare />
-      </div>
+  <a href="https://www.linkedin.com/in/darshan373/" target="_blank" rel="noopener noreferrer">
+    <FaLinkedin />
+  </a>
+  <a href="https://github.com/darshan373/" target="_blank" rel="noopener noreferrer">
+    <FaGithub />
+  </a>
+  <a href="https://www.instagram.com/yourusername/" target="_blank" rel="noopener noreferrer">
+    <FaInstagramSquare />
+  </a>
+</div>
+
     </div>
   );
 };
