@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Header.css"
 import handwave from "../assets/hand-wave.svg"
-import img from "../assets/1670489172025.jpg"
+import img from "../assets/Profile.jpeg"
 const Profile = () => {
   return (
     <div className='container_prof'>
