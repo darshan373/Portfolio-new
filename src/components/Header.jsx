@@ -28,8 +28,8 @@ const Header = () => {
       </div>
 
       <div className="icons col-4">
-        <FaLinkedin />
-        <FaGithub />
+        <FaLinkedin href="https://www.linkedin.com/in/darshan373/"/>
+        <FaGithub href="https://github.com/darshan373/"/>
         <FaInstagramSquare />
       </div>
     </div>
