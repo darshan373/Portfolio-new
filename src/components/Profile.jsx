@@ -4,7 +4,7 @@ import handwave from "../assets/hand-wave.svg"
 import img from "../assets/Profile.jpeg"
 const Profile = () => {
   return (
-    <div className='container_prof'>
+    <div className='container_prof' id='Home'>
         <div>
         <div className='d-flex first_text' style={{gap:"10px",alignItems:'center'}}>
         <p className='kumbh-sans-f text_color d-flex'>Hey,there</p>

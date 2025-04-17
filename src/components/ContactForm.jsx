@@ -29,7 +29,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container my-5 text-white">
+    <div className="container my-5 text-white" id='contact'>
       <h2 className="mb-4 text-center">Request a Service</h2>
       <form onSubmit={onSubmit} className="service-form p-4 mx-auto">
         <div className="row g-3">

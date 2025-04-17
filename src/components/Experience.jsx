@@ -27,7 +27,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="container my-5">
+    <div className="container my-5" id='work'>
       <h2 className="text-white mb-4">Experience</h2>
       {experiences.map((exp, index) => (
         <div className="experience-card mb-4 p-3" key={index}>
