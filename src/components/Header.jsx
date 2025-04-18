@@ -27,7 +27,7 @@ const Header = () => {
         </a>
       </div>
 
-      <div className="icons col-4">
+      <div className="icons col-4 icons-class">
   <a href="https://www.linkedin.com/in/darshan373/" target="_blank" rel="noopener noreferrer">
     <FaLinkedin />
   </a>

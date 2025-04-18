@@ -11,6 +11,10 @@
     display: flex;
     align-items: center;justify-content: space-between;
 }
+.icons-class a,.icons-class>*{
+  background-color: transparent;
+
+}
 
 .d_letter{
    background-color: transparent;
