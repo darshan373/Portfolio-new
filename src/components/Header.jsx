@@ -1,6 +1,4 @@
-import React from "react";
-import "../styles/Header.css";
-import logo from "../assets/ade-logo.svg";
+import "../styles/Header.css"
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";

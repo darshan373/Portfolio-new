@@ -1,5 +1,3 @@
-import React from 'react'
-import offset from "../assets/offset-folio.svg"
 import "../styles/Projects.css"
 const Pcard = (props) => {
   return (
